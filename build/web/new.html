@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+	
+	
+        <title><%=(String)session.getAttribute("username")%></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <p><a href="ProductControllerURL?service=listAll" target="main_page">list all products</a></p>
+        
+        <p><a href="OrderItemControllerURL?service=listAll" target="main_page">list all order items</a></p>
+        
+        <p><a href="CustomerControllerURL?service=listAll" target="main_page">list all customers</a></p>
+        
+        <p><a href="OrderControllerURL?service=listAll" target="main_page">list all orders</a></p>
+        
+        <p><a href="StaffControllerURL?service=listAll" target="main_page">list all staff</a></p>
+        
+        <p><a href="StockControllerURL?service=listAll" target="main_page">list all stocks</a></p>
+        
+        <p><a href="StoreControllerURL?service=listAll" target="main_page">list all stores</a></p>
+        
+    </body>
+</html>
